@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const hostname = '127.0.0.3';
-const port = 3052;
+const port = (3052, 3062, 3072);
 const sqlite3 = require('sqlite3').verbose();
 const DBPATH = 'dbCurriculo.db';
 
