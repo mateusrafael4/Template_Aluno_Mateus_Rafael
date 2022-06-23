@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <title>Exercicio5</title>
+    
+  </head>
+    <h1>Exercício 5</h1>
+    <h3>Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho. Quando o usuário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
+      - a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+      - a média geral, considerando todos os alunos;
+      - a média artiméticas das notas de prova;
+      - a média artiméticas das notas de trabalho;
+      - a menor e a maior notas de prova;
+      - a menor e a maior notas de trabalho. Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada.</h3>
+      <br/>
+
+      <h3>Quantidade de Alunos:</h3>
+      <input type="Number" id="qtAlunos"/>
+      <br>
+      <br>
+      <h4 id="alunos"></h4>
+      <h4>Insira as Notas dos Alunos na Prova: (separe a lista por vírgulas)</h4>
+      <input type="text" id="notaDaProva"/>
+      <h4>Insira as Notas dos Alunos no Trabalho: (separe a lista por vírgulas)</h4>
+      <input type="text" id="notaDoTrabalho"/>
+      <br><br>
+      <input type="button" id="notaFinal" value="Calcular Notas" onclick="Notas()"/>
+      <br><br>
+      <h3>Média Geral:</h3>
+      <h4 id="mediaGeral"></h4>
+      <br>
+      <h3>Média dos Trabalhos:</h3>
+      <h4 id="mediaDosTrabalhos"></h4>
+      <br>
+      <h3>Média das Provas:</h3>
+      <h4 id="mediaDasProvas"></h4>
+      <br>
+      <h3>Menor Nota das Provas:</h3>
+      <h4 id="menorDaProva"></h4>
+      <br>
+      <h3>Maior Nota das Provas:</h3>
+      <h4 id="maiorDaProva"></h4>
+      <br>
+      <h3>Menor Nota dos Trabalho:</h3>
+      <h4 id="menorDoTrabalho"></h4>
+      <br>
+      <h3>Maior Nota dos Trabalho:</h3>
+      <h4 id="maiorDoTrabalho"></h4>
+
+      <script src="script.js"></script>
+  </body>
+</html>
